@@ -1,0 +1,87 @@
+/* Ajustes generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f9;
+}
+
+/* Estilo del contenedor principal */
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+/* Contenedor de la tarjeta */
+.container {
+  width: 90%;
+  max-width: 500px;
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+}
+
+/* Encabezado */
+.heading {
+  font-size: 2rem;
+  color: #d70c3f;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Estilo de la tarjeta */
+.card {
+  padding: 15px;
+  border-radius: 8px;
+  background: #e68ebd;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Frase */
+.phrase {
+  font-size: 1.5rem;
+  color: #705eea;
+  font-style: italic;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* Autor */
+.author {
+  font-size: 1rem;
+  color: #040504;
+  display: block;
+  margin-top: 5px;
+}
+
+/* Botón */
+.btn {
+  background-color: #af3ff0;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #7ce0a4;
+}
